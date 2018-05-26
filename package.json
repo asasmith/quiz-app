@@ -1,0 +1,9 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "vanilla js quiz app",
+  "main": "index.js",
+  "repository": "git@github.com:asasmith/quiz-app.git",
+  "author": "Asa Smith <smith.asa.la@gmail.com>",
+  "license": "MIT"
+}
