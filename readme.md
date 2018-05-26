@@ -22,7 +22,7 @@ Upon submitting an answer, users should:
 
 Your quiz app must:
 
-- [ ]  Render answer choices in a <form>.
+- [ ]  Render answer choices in a `<form>`.
 - [ ]  Use semantic HTML, along with CSS and jQuery.
 - [ ]  Follow a11y best practices.
 - [ ]  Use responsive design.
