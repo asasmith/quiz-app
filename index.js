@@ -1,27 +1,27 @@
 const data = [
   {
     question: 'how old is the solar system?',
-    correctAnswer: '4.6 billion years',
+    correctAnswer: answerChoices[2],
     answerChoices: ['2000 years', '100 days', '4.6 billion years', '1 million years'],
   },
   {
     question: 'what is the largest planet in the solar system?',
-    correctAnswer: 'jupiter',
+    correctAnswer: answerChoices[0],
     answerChoices: ['jupiter', 'the sun', 'io', 'mars'],
   },
   {
     question: 'how much of the solar sytem\'s mass is contained in the sun?',
-    correctAnswer: '99.86%',
+    correctAnswer: answerChoices[1],
     answerChoices: ['1%', '99.86%', '70.2%', '25.5%'],
   },
   {
     question: 'where is the largest volcano located?',
-    correctAnswer: 'mars',
+    correctAnswer: answerChoices[3],
     answerChoices: ['earth', 'europa', 'the sun', 'mars']
   },
   {
     question: 'what is the name of the galaxy our solar system is located in',
-    correctAnswer: 'the milky way galaxy',
+    correctAnswer: answerChoices[2],
     answerChoices: ['the baby ruth galaxy', 'the snickers galaxy', 'the milky way galaxy', 'the kit kat galaxy']
   },
 ]
