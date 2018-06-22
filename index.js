@@ -32,22 +32,21 @@ let incorrect = 0
 
 const quiz = document.querySelector('form')
 const start = document.querySelector('button')
+const questionContainer = document.getElementById('question-container')
 
 start.addEventListener('click', loadQuiz)
 
 function loadQuiz () {
   nextQuestion(data[currentQuestion].answerChoices)
   start.parentElement.removeChild(start) // remove start button once the quiz starts
-
 }
 
 function nextQuestion (optionsArr) {
-  const questionContainer = document.getElementById('question-container')
   const questionNumber = document.createElement('p')
   const question = document.createElement('p')
 
-  const correctAnswers = document.getElementById('correct')
-  const incorrectAnswers = document.getElementById('incorrect')
+  const correctAnswers = questionContainer.getElementById('correct')
+  const incorrectAnswers = questionContainer.getElementById('incorrect')
 
   questionNumber.innerHTML = ''
   questionNumber.innerHTML = `question # ${currentQuestion + 1} out of ${data.length}`
@@ -72,7 +71,7 @@ function nextQuestion (optionsArr) {
   label.innerHTML = option
   questionContainer.appendChild(input)
   questionContainer.appendChild(label)
-  });
+ data[currentQuestion].correctAnswer });
 }
 
 // define submit function and action
